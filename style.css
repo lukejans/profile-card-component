@@ -6,9 +6,26 @@
 body {
   font-family: 'Kumbh Sans', sans-serif;
   background-color: hsl(185, 75%, 39%);
-  background-repeat: no-repeat;
-  background-image: url(./images/bg-pattern-bottom.svg);
-  background-position-y: bottom;
+}
+.wrapper:before,
+.wrapper:after {
+  position: absolute;
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  background-size: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.wrapper:before {
+  top: 0;
+  left: 0;
+  background: url('/images/bg-pattern-top.svg') no-repeat bottom right;
+}
+.wrapper:after {
+  top: 100%;
+  left: 100%;
+  background: url('./images/bg-pattern-bottom.svg') no-repeat top left;
 }
 .wrapper {
   display: flex;
