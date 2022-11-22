@@ -3,7 +3,7 @@
 ### Links
 
 - Solution URL: [repo](https://github.com/lukejans/profile-card-component)
-- Live Site URL: [github pages]()
+- Live Site URL: [github pages](https://lukejans.github.io/profile-card-component/)
 
 ## Author
 
